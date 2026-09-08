@@ -325,3 +325,23 @@ a{-webkit-user-drag:none}
     font-family:Arial,Helvetica,sans-serif;font-size:13pt;line-height:1.7;color:#1B2A4A;
     padding:28mm 24mm;max-width:150mm}
 }
+
+/* ── core message & ILO block ────────────────────────────────── */
+.core{background:#fff;border:1px solid var(--border);border-left:5px solid var(--accent);border-radius:10px;
+  padding:1rem 1.15rem;margin:0 0 1rem}
+.core .lab{font-size:.63rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);
+  margin-bottom:.35rem}
+.core .one{font-size:1.02rem;font-weight:700;color:var(--navy);line-height:1.45;margin-bottom:.6rem}
+.core .three{list-style:none;margin:0 0 .7rem;padding:0;border-top:1px solid var(--border);padding-top:.6rem}
+.core .three li{font-size:.86rem;color:#374151;line-height:1.6;padding-left:1rem;position:relative;margin-bottom:.2rem}
+.core .three li::before{content:'';position:absolute;left:0;top:.62em;width:5px;height:5px;border-radius:50%;background:var(--accent)}
+.core .ilo{border-top:1px solid var(--border);padding-top:.6rem}
+.core .ilo-lab{font-size:.63rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem}
+.core .ilo-item{display:flex;gap:.55rem;align-items:flex-start;margin-bottom:.25rem}
+.core .ilo-num{flex-shrink:0;width:1.35rem;height:1.35rem;border-radius:5px;background:var(--navy);color:#fff;
+  font-size:.7rem;font-weight:700;display:flex;align-items:center;justify-content:center}
+.core .ilo-txt{font-size:.82rem;color:#475569;line-height:1.5}
+.core .attrib{font-size:.7rem;color:var(--muted);font-style:italic;margin-top:.55rem}
+.core-mini{font-size:.83rem;color:var(--navy);font-weight:700;background:#F8FAFC;border-left:3px solid var(--accent);
+  padding:.4rem .7rem;margin:.2rem 0 .5rem;line-height:1.5}
+.core-mini span{display:block;font-weight:400;font-size:.72rem;color:var(--muted);font-style:italic;margin-top:.15rem}

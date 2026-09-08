@@ -49,6 +49,14 @@ Every unit of the approved course outline has two Slibraries:
 
 The author gallery follows the same three-part structure, with 32 A4 Author Slibraries.
 
+## Core message and ILOs
+
+Every unit carries a distilled core message produced with Bostelaar's method — decompose,
+prioritise, three sentences, one sentence — together with the intended learning outcomes from
+section 2 of the course outline that the unit addresses. It appears on the unit gallery page and the
+session activity page in full, as a one-line banner on the home page, case, pre-reading and
+reflection pages, and as a mapping table in the syllabus.
+
 ## Per-unit resources
 
 Each of the eight units carries the full MARTI301-style resource set, reachable from the unit

@@ -6,7 +6,7 @@ function fwCard(fw,i){
    '<span class="card-thumb">'+FIG(fw.shape,fw.labels,fw.color,'thumb')+'</span>'+
    '<span class="card-body"><span class="card-title">'+fw.name+'</span>'+
    '<span class="card-desc">'+fw.desc+'</span>'+
-   '<span class="card-tag" style="background:'+fw.color+'">Slibrary '+fw.slibNum+' &middot; Sheet '+fw.sheet+'/5</span></span></button>';
+   '<span class="card-tag" style="background:'+fw.color+'">Slibrary '+fw.slibNum+' &middot; Sheet '+fw.sheet+'/'+(fw.of||5)+'</span></span></button>';
 }
 function openModal(fw){
   var m=document.getElementById('modal');
@@ -21,7 +21,7 @@ function openModal(fw){
    '<ul class="modal-details">'+fw.details.map(function(d){return '<li>'+d+'</li>'}).join('')+'</ul>'+
    '<div class="modal-ref"><div class="modal-ref-label">Reference</div>'+fw.ref+'</div>'+
    '<div class="sheet-cta"><a class="sheet-btn" href="sheets.html#s'+fw.page+'">'+
-   '&#128196; View Full A4 Reference Sheet &middot; '+fw.page+' / 80</a></div>'+
+   '&#128196; View Full A4 Reference Sheet &middot; '+fw.page+' / 81</a></div>'+
    '</div>';
   document.getElementById('modalOverlay').classList.add('open');
   document.body.style.overflow='hidden';

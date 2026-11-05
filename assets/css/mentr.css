@@ -86,8 +86,8 @@ p.body{font-size:.9rem;color:#374151;max-width:72ch;margin-bottom:.7rem}
   display:flex;flex-direction:column;text-align:left;font-family:inherit;padding:0;width:100%;transition:box-shadow .15s,border-color .15s}
 .card:hover{box-shadow:0 10px 26px rgba(27,42,74,.09);border-color:#CBD5E1}
 .card-accent{display:block;height:3px;width:100%;flex-shrink:0}
-.card-thumb{height:118px;flex-shrink:0;background:#F8FAFC;display:flex;align-items:center;justify-content:center;padding:.7rem}
-.card-thumb svg{width:100%;height:100%;opacity:.75}
+.card-thumb{height:158px;flex-shrink:0;background:#F8FAFC;display:flex;align-items:center;justify-content:center;padding:.4rem .45rem;border-bottom:1px solid #EEF2F6}
+.card-thumb svg{width:100%;height:100%;display:block}
 .card-body{padding:.75rem .85rem .85rem;flex:1;display:flex;flex-direction:column}
 .card-title{display:block;font-size:.82rem;font-weight:700;line-height:1.3;margin-bottom:.25rem;color:var(--navy)}
 .card-desc{display:block;font-size:.7rem;color:var(--muted);line-height:1.45;margin-bottom:.5rem;flex:1}
@@ -110,8 +110,8 @@ p.body{font-size:.9rem;color:#374151;max-width:72ch;margin-bottom:.7rem}
 .modal-title{font-size:1.35rem;font-weight:700;margin-bottom:.5rem;padding-right:2rem}
 .modal-def{font-size:.88rem;color:var(--red);font-weight:600;line-height:1.55;margin-bottom:.7rem;border-left:3px solid var(--red);padding-left:.65rem}
 .modal-desc{font-size:.86rem;color:var(--muted);line-height:1.6;margin-bottom:.9rem}
-.modal-thumb{background:#F8FAFC;border-radius:10px;padding:1.2rem;margin-bottom:1rem;display:flex;justify-content:center}
-.modal-thumb svg{width:100%;max-width:460px;height:auto}
+.modal-thumb{background:#F8FAFC;border-radius:10px;padding:.6rem;margin-bottom:1rem;display:flex;justify-content:center}
+.modal-thumb svg{width:100%;max-width:520px;height:auto;display:block}
 .modal-details{list-style:none;margin-bottom:1rem}
 .modal-details li{font-size:.82rem;padding:.4rem 0;border-bottom:1px solid #F1F5F9;display:flex;gap:.5rem}
 .modal-details li::before{content:'\2022';color:var(--teal);font-weight:700}
@@ -183,7 +183,7 @@ footer.site{background:var(--navy);padding:2rem 1.5rem;text-align:center;color:#
   .stats{gap:1.3rem}
   .stat .n{font-size:1.5rem}
   .cards-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
-  .card-thumb{height:92px}
+  .card-thumb{height:140px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
 

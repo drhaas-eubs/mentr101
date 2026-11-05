@@ -3,7 +3,7 @@
 Course website for MENTR101 (EU Business School, Masters Level 7, 3 ECTS), built in the same
 structure as `drhaas-eubs.github.io/marti301`.
 
-© Dr. Hildegard Haas · Genedia AG Education — appears on every page.
+© Dr. Hildegard Haas · Genedia AG Education — appears on every page. 
 
 ## Pages
 
